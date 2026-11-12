@@ -1,0 +1,50 @@
+
+== Sla by team ==
+team        requests  avg_hours  breached  sla_met_pct
+Tax         209       49.8       107       48.8       
+Payroll     193       19.1       22        88.6       
+Accounting  198       43.2       21        89.4       
+
+== Cycle time by type ==
+request_type         requests  median_hours  p90_hours
+invoice_review       112       42.2          89.3     
+statement_analysis   88        42.1          85.7     
+tax_assessment       97        38.5          96.8     
+bank_reconciliation  110       33.6          78.9     
+termination          71        17.8          39.3     
+vacation_calc        51        15.3          28.9     
+admission            71        13.9          33.7     
+
+== Stage bottlenecks ==
+team        stage        avg_hours_per_request  share_of_cycle_pct
+Accounting  in_progress  28.5                   65.9              
+Accounting  review       10.8                   25.1              
+Accounting  intake       3.9                    9.0               
+Payroll     in_progress  10.5                   55.0              
+Payroll     review       6.7                    34.9              
+Payroll     intake       1.9                    10.2              
+Tax         review       30.4                   61.0              
+Tax         in_progress  16.1                   32.3              
+Tax         intake       3.4                    6.8               
+
+== Rework rate ==
+team        requests  reopened  rework_pct  extra_hours_when_reopened
+Tax         209       22        10.5        19.1                     
+Payroll     193       10        5.2         15.6                     
+Accounting  198       10        5.1         15.2                     
+
+== Weekly volume ==
+week      opened  closed  net_backlog_change
+2026-W35  38      25      13                
+2026-W36  61      66      -5                
+2026-W37  51      51      0                 
+2026-W38  47      45      2                 
+2026-W39  47      52      -5                
+2026-W40  59      48      11                
+2026-W41  48      50      -2                
+2026-W42  47      55      -8                
+2026-W43  48      44      4                 
+2026-W44  45      45      0                 
+2026-W45  37      36      1                 
+2026-W46  57      52      5                 
+2026-W47  15      31      -16               
